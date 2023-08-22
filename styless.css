@@ -1,0 +1,93 @@
+/*4 - External */
+body{
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+p{
+    color: blueviolet;
+}
+/*Algum comentário */
+/*mais um comentário*/
+
+/* classes */
+.paragraph {
+    background-color:  black;
+    color: aqua;
+    padding: 5px;
+}
+/* ids */
+#exclusive-title {
+    background-color: chocolate;
+    color: burlywood;
+    padding: 10px;
+}
+
+/* Ordem das regras*/
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+/*Nomr de cores */
+.color-name {
+    color: goldenrod
+}
+/* Hex */
+.hex {
+    color:#55a398
+}
+/*Aprofundando em Hex */
+.simple-hex {
+    color: #557a35;
+}
+.simple-hex-2 {
+    color: #9921;
+}
+/* RGB*/
+.rgb {
+    color: rgb(255, 0 , 8);
+}
+.mixed-rgb { 
+    color: rgb(71,  99, 26);
+}
+/* RGBA */
+.rgba {
+    color: rgba(200, 199, 45, 0.3);
+}
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+.hsl-2 {
+    color: hsl(99, 50%, 30%);
+}
+/* Background */
+.bg {
+    background-color: #000;
+    color: blue;
+}
+/* Background opacity*/
+.bg-opacity {
+    background-color: #557a35;
+    opacity: 0.2;
+}
+.bg-opacity-2 {
+    background-color: #c92828;
+    opacity: #000
+}
+/* BG image */
+.bg-image {
+    background-image: url(../3_CSS/img/nature.jpg);
+    padding: 10px;
+    color: #fff;
+}
